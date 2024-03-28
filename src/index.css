@@ -12,6 +12,10 @@
     -webkit-text-stroke-color: #000000 !important;
     -webkit-text-stroke-width: 0.5px !important;
 }
+.text_border_half_orange{
+    -webkit-text-stroke-color: #F2BD64 !important;
+    -webkit-text-stroke-width: 0.5px !important;
+}
 .common_heading {
     @apply font-indieFlower font-normal text-3xl md:text-4xl lg:text-5xl text-center !leading-lh131 ;
 }

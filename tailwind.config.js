@@ -29,6 +29,7 @@ module.exports = withMT({
         pastedOrange: "#F4B03B",
         darkCharcoal: "#2E2C28",
         lightWhite: "#FAFAFA",
+        babypowder: "#FAF8F3",
       },
       lineHeight: {
         lh138: "138.4%",
