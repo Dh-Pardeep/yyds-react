@@ -1,11 +1,17 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+const withMT = require("@material-tailwind/react/utils/withMT");
+module.exports = withMT({
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "path-to-your-node_modules/@material-tailwind/react/components/**/*.{js,ts,jsx,tsx}",
+    "path-to-your-node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
+  ],
+
   theme: {
     extend: {
       fontSize: {
-        "2xl": "28px",
-        "5xl": "50px",
+        "3xl": "28px",
+        "5xl": "48px",
         "6xl": "64px",
       },
       fontFamily: {
@@ -22,6 +28,7 @@ module.exports = {
         racingRed: "#D70101",
         pastedOrange: "#F4B03B",
         darkCharcoal: "#2E2C28",
+        lightWhite: "#FAFAFA",
       },
       lineHeight: {
         lh138: "138.4%",
@@ -30,4 +37,4 @@ module.exports = {
     },
   },
   plugins: [],
-};
+});
