@@ -36,8 +36,8 @@ const Faqs = () => {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
   return (
    <div className="relative">
-    {/* <img src={leftImage} alt="side img" />
-    <img src={rightImage} alt="side img" /> */}
+    {/* <img className="absolute mix-blend-darken left-0 top-0" src={leftImage} alt="side img" />
+    <img className="absolute mix-blend-darken right-0 bottom-0" src={rightImage} alt="side img" /> */}
      <div className="container max-w-[1164px] mx-auto px-3 py-12 sm:py-16 md:py-20 lg:py-28  xl:py-[138px] xl:pb-[189px]">
       <h2 className="common_heading text_border_one">How to Buy $YYDS</h2>
       <div className="max-w-[854px] mx-auto mt-12 md:mt-[60px]">
