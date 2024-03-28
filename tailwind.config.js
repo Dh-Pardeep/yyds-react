@@ -21,6 +21,11 @@ module.exports = {
         papayaWhip: "#FFF0CE",
         racingRed: "#D70101",
         pastedOrange: "#F4B03B",
+        darkCharcoal: "#2E2C28",
+      },
+      lineHeight: {
+        lh138: "138.4%",
+        lh131: "131.4%",
       },
     },
   },
