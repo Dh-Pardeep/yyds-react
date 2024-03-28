@@ -12,15 +12,15 @@ const Roadmap = () => {
         Pathway to Progress
       </h2>
       <div className="relative">
-        <div className="bg-black w-1 h-[92%] top-5 absolute left-1/2 -translate-x-1/2"></div>
+        <div className="bg-black w-1 h-full top-0 absolute left-1/2 -translate-x-1/2"></div>
         <div className="flex items-center justify-between">
-          <div className="w-1/2 flex items-center justify-between pe-[92px]">
+          <div className="w-1/2 flex items-center justify-between pe-16 lg:pe-[92px]">
             <img
-              className="mix-blend-darken"
+              className="mix-blend-darken w-[135px] lg:w-[190px] xl:w-[207px] "
               src={foundationImage}
               alt="foundation image"
             />
-            <div className="border border-black rounded-[10px] relative max-w-[187px] w-full px-12 py-[13px] h-[89px] flex items-center justify-center  before:content-[''] before:bg-black before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[-94px] before:w-[94px] before:h-[4px] ">
+            <div className="border border-black rounded-[10px] ms-5  relative max-w-[187px] w-full px-2 lg:px-12   py-[13px] h-[89px] flex items-center justify-center  before:content-[''] before:bg-black before:absolute before:top-1/2 before:-translate-y-1/2 before:lg:right-[-94px] before:right-[-75px] before:lg:w-[94px] before:lg:h-[4px] before:w-[75px] before:h-[4px] ">
               <h2 className="text_border_half_orange font-indieFlower leading-lh131 text-3xl md:text-4xl lg:text-5xl text-saffron ">
                 2023
               </h2>
@@ -54,27 +54,27 @@ const Roadmap = () => {
               </p>
             </div>
           </div>
-          <div className="w-1/2 flex items-center justify-between ps-[92px]">
-            <div className="border border-black rounded-[10px] relative max-w-[187px] w-full px-12 py-[13px] h-[89px] flex items-center justify-center  before:content-[''] before:bg-black before:absolute before:top-1/2 before:-translate-y-1/2 before:left-[-94px] before:w-[94px] before:h-[4px] ">
+          <div className="w-1/2 flex items-center justify-between ps-16 lg:ps-[92px]">
+            <div className="border border-black rounded-[10px] me-5 relative max-w-[187px] w-full px-2 lg:px-12 py-[13px] h-[89px] flex items-center justify-center  before:content-[''] before:bg-black before:absolute before:top-1/2 before:-translate-y-1/2 before:lg:left-[-94px] before:left-[-75px] before:lg:w-[94px] before:lg:h-[4px] before:w-[75px] before:h-[4px] ">
               <h2 className="text_border_half_orange font-indieFlower leading-lh131 text-3xl md:text-4xl lg:text-5xl text-saffron ">
                 2024
               </h2>
             </div>
             <img
-              className="mix-blend-darken"
+              className="mix-blend-darken w-[135px] lg:w-[190px] xl:w-[207px] "
               src={buildingImage}
               alt="building image"
             />
           </div>
         </div>
         <div className="flex items-center justify-between">
-          <div className="w-1/2 flex items-center justify-between pe-[92px]">
+          <div className="w-1/2 flex items-center justify-between pe-16 lg:pe-[92px]">
             <img
-              className="mix-blend-darken"
+              className="mix-blend-darken w-[135px] lg:w-[190px] xl:w-[207px] "
               src={creativityImage}
               alt="creativity image"
             />
-            <div className="border border-black rounded-[10px] relative max-w-[187px] w-full px-12 py-[13px] h-[89px] flex items-center justify-center  before:content-[''] before:bg-black before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[-94px] before:w-[94px] before:h-[4px] ">
+            <div className="border border-black rounded-[10px] ms-5 relative max-w-[187px] w-full px-2 lg:px-12 py-[13px] h-[89px] flex items-center justify-center  before:content-[''] before:bg-black before:absolute before:top-1/2 before:-translate-y-1/2 before:lg:right-[-94px] before:right-[-75px] before:lg:w-[94px] before:lg:h-[4px] before:w-[75px] before:h-[4px] ">
               <h2 className="text_border_half_orange font-indieFlower leading-lh131 text-3xl md:text-4xl lg:text-5xl text-saffron ">
                 2025
               </h2>
