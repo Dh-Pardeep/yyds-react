@@ -1,0 +1,8 @@
+@media (min-width: 640px) {
+    .left_unset::before {
+        left: unset !important;
+    }
+    .left_unset::after {
+        left: unset !important;
+    }
+}

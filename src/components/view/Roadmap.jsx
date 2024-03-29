@@ -12,22 +12,22 @@ const Roadmap = () => {
         Pathway to Progress
       </h2>
       <div className="relative">
-        <div className="bg-black w-1 h-full top-0 absolute left-1/2 -translate-x-1/2"></div>
-        <div className="flex items-center justify-between">
-          <div className="w-1/2 flex items-center justify-between pe-16 lg:pe-[92px]">
+        <div className="bg-black w-1 h-full top-0 absolute left-6 sm:left-1/2 sm:-translate-x-1/2"></div>
+        <div className="flex  sm:items-center flex-col sm:flex-row justify-between">
+          <div className="w-full sm:w-1/2 flex items-center flex-row-reverse sm:flex-row justify-between ps-16 sm:ps-0 sm:pe-16 lg:pe-[92px]">
             <img
-              className="mix-blend-darken w-[135px] lg:w-[190px] xl:w-[207px] "
+              className="mix-blend-darken w-[110px] md:w-[135px] lg:w-[190px] xl:w-[207px] "
               src={foundationImage}
               alt="foundation image"
             />
-            <div className="border border-black rounded-[10px] ms-5  relative max-w-[187px] w-full px-2 lg:px-12   py-[13px] h-[89px] flex items-center justify-center  before:content-[''] before:bg-black before:absolute before:top-1/2 before:-translate-y-1/2 before:lg:right-[-94px] before:right-[-75px] before:lg:w-[94px] before:lg:h-[4px] before:w-[75px] before:h-[4px] ">
+            <div className="border border-black rounded-[10px] me-5 sm:me-0 sm:ms-5  relative max-w-[140px] sm:max-w-[187px] w-full px-2 lg:px-12   py-[13px] h-[50px] md:h-[70px] lg:h-[89px] flex items-center justify-center  before:content-[''] before:bg-black before:absolute before:top-1/2 before:-translate-y-1/2 before:lg:!right-[-94px] before:left-[-40px] before:sm:!right-[-75px] before:lg:w-[94px] before:lg:h-[4px] before:sm:w-[75px] before:w-[40px] before:h-[4px] after:content-[''] after:rounded-full after:bg-babypowder after:absolute after:top-1/2 after:-translate-y-1/2  after:left-[-52px] after:sm:!right-[-78px] after:w-[26px] after:h-[26px] after:border-[3px] after:border-black left_unset after:lg:!right-[-105px]">
               <h2 className="text_border_half_orange font-indieFlower leading-lh131 text-3xl md:text-4xl lg:text-5xl text-saffron ">
                 2023
               </h2>
             </div>
           </div>
-          <div className="w-1/2 ps-10">
-            <div className=" w-full bg-babypowder p-5 border border-black rounded-[10px] relative after:content-[''] after:rounded-full after:bg-babypowder after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[-54px] after:w-[26px] after:h-[26px] after:border-[3px] after:border-black">
+          <div className="w-full sm:w-1/2 ps-16 sm:ps-10 pt-6 sm:pt-0">
+            <div className=" w-full bg-babypowder p-5 border border-black rounded-[10px]  ">
               <h2 className="text-lightBlack font-indieFlower font-normal leading-lh131 text-xl md:text-2xl text_border_half mb-2">
                 Foundation
               </h2>
@@ -39,9 +39,9 @@ const Roadmap = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-between py-10">
-          <div className="w-1/2 pe-10">
-            <div className=" w-full bg-babypowder p-5 border border-black rounded-[10px] relative after:content-[''] after:rounded-full after:bg-babypowder after:absolute after:top-1/2 after:-translate-y-1/2 after:right-[-54px] after:w-[26px] after:h-[26px] after:border-[3px] after:border-black after:z-10">
+        <div className="flex sm:items-center flex-col-reverse sm:flex-row justify-between py-10">
+          <div className="w-full sm:w-1/2 ps-16 sm:ps-0 sm:pe-10 pt-6 sm:pt-0">
+            <div className=" w-full bg-babypowder p-5 border border-black rounded-[10px]  ">
               <h2 className="text-lightBlack font-indieFlower font-normal leading-lh131 text-xl md:text-2xl text_border_half mb-2">
                 Building Momentum
               </h2>
@@ -54,34 +54,34 @@ const Roadmap = () => {
               </p>
             </div>
           </div>
-          <div className="w-1/2 flex items-center justify-between ps-16 lg:ps-[92px]">
-            <div className="border border-black rounded-[10px] me-5 relative max-w-[187px] w-full px-2 lg:px-12 py-[13px] h-[89px] flex items-center justify-center  before:content-[''] before:bg-black before:absolute before:top-1/2 before:-translate-y-1/2 before:lg:left-[-94px] before:left-[-75px] before:lg:w-[94px] before:lg:h-[4px] before:w-[75px] before:h-[4px] ">
+          <div className="w-full sm:w-1/2 flex items-center justify-between ps-16 lg:ps-[92px]">
+            <div className="border border-black rounded-[10px] me-5 relative max-w-[140px] sm:max-w-[187px] w-full px-2 lg:px-12 py-[13px] h-[50px] md:h-[70px] lg:h-[89px] flex items-center justify-center  before:content-[''] before:bg-black before:absolute before:top-1/2 before:-translate-y-1/2 before:lg:left-[-94px] before:left-[-40px] before:sm:left-[-75px] before:lg:w-[94px] before:lg:h-[4px] before:w-[40px] sm:before:w-[75px] before:h-[4px] after:content-[''] after:rounded-full after:bg-babypowder after:absolute after:top-1/2 after:-translate-y-1/2 after:lg:left-[-105px] after:left-[-52px] after:sm:left-[-78px] after:w-[26px] after:h-[26px] after:border-[3px] after:border-black after:z-10">
               <h2 className="text_border_half_orange font-indieFlower leading-lh131 text-3xl md:text-4xl lg:text-5xl text-saffron ">
                 2024
               </h2>
             </div>
             <img
-              className="mix-blend-darken w-[135px] lg:w-[190px] xl:w-[207px] "
+              className="mix-blend-darken w-[110px] md:w-[135px] lg:w-[190px] xl:w-[207px] "
               src={buildingImage}
               alt="building image"
             />
           </div>
         </div>
-        <div className="flex items-center justify-between">
-          <div className="w-1/2 flex items-center justify-between pe-16 lg:pe-[92px]">
+        <div className="flex sm:items-center flex-col sm:flex-row justify-between">
+          <div className="w-full sm:w-1/2 flex items-center flex-row-reverse sm:flex-row justify-between ps-16 sm:ps-0 sm:pe-16 lg:pe-[92px]">
             <img
-              className="mix-blend-darken w-[135px] lg:w-[190px] xl:w-[207px] "
+              className="mix-blend-darken w-[110px] md:w-[135px] lg:w-[190px] xl:w-[207px] "
               src={creativityImage}
               alt="creativity image"
             />
-            <div className="border border-black rounded-[10px] ms-5 relative max-w-[187px] w-full px-2 lg:px-12 py-[13px] h-[89px] flex items-center justify-center  before:content-[''] before:bg-black before:absolute before:top-1/2 before:-translate-y-1/2 before:lg:right-[-94px] before:right-[-75px] before:lg:w-[94px] before:lg:h-[4px] before:w-[75px] before:h-[4px] ">
+            <div className="border border-black rounded-[10px] me-5 sm:me-0 sm:ms-5  relative max-w-[140px] sm:max-w-[187px] w-full px-2 lg:px-12   py-[13px] h-[50px] md:h-[70px] lg:h-[89px] flex items-center justify-center  before:content-[''] before:bg-black before:absolute before:top-1/2 before:-translate-y-1/2 before:lg:!right-[-94px] before:left-[-40px] before:sm:!right-[-75px] before:lg:w-[94px] before:lg:h-[4px] before:sm:w-[75px] before:w-[40px] before:h-[4px] after:content-[''] after:rounded-full after:bg-babypowder after:absolute after:top-1/2 after:-translate-y-1/2  after:left-[-52px] after:sm:!right-[-78px] after:w-[26px] after:h-[26px] after:border-[3px] after:border-black left_unset after:lg:!right-[-105px]">
               <h2 className="text_border_half_orange font-indieFlower leading-lh131 text-3xl md:text-4xl lg:text-5xl text-saffron ">
                 2025
               </h2>
             </div>
           </div>
-          <div className="w-1/2 ps-10">
-            <div className=" w-full bg-babypowder p-5 border border-black rounded-[10px] relative after:content-[''] after:rounded-full after:bg-babypowder after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[-54px] after:w-[26px] after:h-[26px] after:border-[3px] after:border-black">
+          <div className="w-full sm:w-1/2 ps-14 sm:ps-10 pt-6 sm:pt-0">
+            <div className=" w-full bg-babypowder p-5 border border-black rounded-[10px]">
               <h2 className="text-lightBlack font-indieFlower font-normal leading-lh131 text-xl md:text-2xl text_border_half mb-2">
                 Unleashing Creativity
               </h2>
