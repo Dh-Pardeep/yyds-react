@@ -36,7 +36,7 @@ const Hero = () => {
       >
         <div className="flex items-center justify-center flex-col lg:flex-row relative z-10">
           <div className="w-full lg:w-1/2">
-            <h2 className="font-indieFlower font-normal text-4xl lg:text-[56px] xl:text-6xl !leading-lh131 text_border_one pb-3 lg:max-w-[558px] text_border_half">
+            <h2 className="font-indieFlower font-normal text-4xl lg:text-[56px] xl:text-6xl !leading-lh131 text_border_one pb-3 lg:max-w-[558px] text_border_hero">
               Laughing All the Way to the Coin Bank
             </h2>
             <p className="lg:max-w-[510px] text-lightBlack/60 font-poppins font-normal leading-lh138">

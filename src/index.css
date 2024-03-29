@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.text_border_hero {
+    -webkit-text-stroke-color: #010101 !important;
+    -webkit-text-stroke-width: 1.5px !important;
+}
 .text_border_one {
     -webkit-text-stroke-color: #010101 !important;
     -webkit-text-stroke-width: 1px !important;
