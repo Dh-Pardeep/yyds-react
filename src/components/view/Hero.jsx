@@ -31,7 +31,7 @@ const Hero = () => {
         alt="side img"
       />
       <div
-        className="container max-w-[1164px] mx-auto px-3 py-12 sm:py-16 md:py-20 lg:pt-28  xl:py-[134px] lg:pb-[95px] lg:h-[100vh-101px] flex items-center justify-center"
+        className="container max-w-[1164px] mx-auto px-3 py-12 sm:py-16 md:py-20  lg:h-[100vh-101px] flex items-center justify-center"
         id="team"
       >
         <div className="flex items-center justify-center flex-col lg:flex-row relative z-10">
@@ -59,7 +59,7 @@ const Hero = () => {
               alt="hero background image"
             />
             <img
-              className="!mix-blend-darken absolute bottom-[-10%] w-[85px] left-0"
+              className="!mix-blend-darken absolute bottom-[-10%] lg:bottom-0 lg:-left-11 w-[85px] sm:w-[170px] left-0"
               src={heroBGDown}
               alt="hero background image"
             />
