@@ -35,12 +35,12 @@ const Faqs = () => {
 
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
   return (
-   <div className="relative">
-    {/* <img className="absolute mix-blend-darken left-0 top-0" src={leftImage} alt="side img" />
-    <img className="absolute mix-blend-darken right-0 bottom-0" src={rightImage} alt="side img" /> */}
+   <div className="relative overflow-hidden" id="faqs">
+    <img className="absolute mix-blend-darken left-0 top-6 xl:w-[272px] xl:h-[160px]  lg:w-[190px] lg:h-[110px] hidden lg:block" src={leftImage} alt="side img" />
+    <img className="absolute mix-blend-darken -right-8 bottom-10 w-[230px] h-[180px] xl:w-[316px] xl:h-[260px] hidden lg:block" src={rightImage} alt="side img" />
      <div className="container max-w-[1164px] mx-auto px-3 py-12 sm:py-16 md:py-20 lg:py-28  xl:py-[138px] xl:pb-[189px]">
       <h2 className="common_heading text_border_one">How to Buy $YYDS</h2>
-      <div className="max-w-[854px] mx-auto mt-12 md:mt-[60px]">
+      <div className="max-w-[700px] xl:max-w-[854px] mx-auto mt-12 md:mt-[60px]">
         <Accordion
           open={open === 1}
           icon={<Icon id={1} open={open} />}

@@ -29,7 +29,7 @@ module.exports = withMT({
         lightBlack: "#010101",
         saffron: "#F8c338",
         yellowRed: "#F2BD64",
-        skyBlue: "#31ABDF",
+        skyBlue: "#31A8DF",
         papayaWhip: "#FFF0CE",
         racingRed: "#D70101",
         pastedOrange: "#F4B03B",

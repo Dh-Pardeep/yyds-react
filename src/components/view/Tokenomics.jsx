@@ -5,22 +5,22 @@ import leftBottomImage from "../../assets/images/svg/tokenleftbottom.svg";
 import rightImage from "../../assets/images/svg/tokenrightimg.svg";
 const Tokenomics = () => {
   return (
-    <div className="bg-papayaWhip relative">
-      {/* <img
-        className="absolute mix-blend-darken left-0 top-0"
+    <div className="bg-papayaWhip relative" id="tokenomics">
+      <img
+        className="absolute mix-blend-darken left-10 top-8 hidden lg:block"
         src={leftTopImage}
         alt="side img"
       />
       <img
-        className="absolute mix-blend-darken left-0 bottom-0"
+        className="absolute mix-blend-darken left-16 bottom-24 hidden lg:block"
         src={leftBottomImage}
         alt="side img"
       />
       <img
-        className="absolute mix-blend-darken right-0 top-0"
+        className="absolute mix-blend-darken right-0 xl:right-9 top-[105px] hidden lg:block"
         src={rightImage}
         alt="side img"
-      /> */}
+      />
       <div className="container max-w-[1164px] mx-auto px-3 py-12 sm:py-16 md:py-20 lg:py-[94px]">
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <div className="w-full lg:w-5/12">

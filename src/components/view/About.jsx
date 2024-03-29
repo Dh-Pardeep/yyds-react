@@ -3,9 +3,9 @@ import leftImage from "../../assets/images/svg/aboutLeftSide.svg";
 import rightImage from "../../assets/images/svg/aboutRightSide.svg";
 const About = () => {
   return (
-    <div className="relative">
-      {/* <img className="absolute mix-blend-darken left-0 top-0" src={leftImage} alt="side img" />
-    <img className="absolute mix-blend-darken right-0 bottom-0" src={rightImage} alt="side img" /> */}
+    <div className="relative" id="about-us">
+      <img className="absolute mix-blend-darken left-0 top-7 xl:top-[110px] hidden sm:block w-[100px] md:w-[150px] lg:w-[230px] xl:w-[390px]" src={leftImage} alt="side img" />
+    <img className="absolute mix-blend-darken right-0 bottom-[82px] hidden sm:block w-[100px] md:w-[150px] lg:w-[230px] xl:w-[312px]" src={rightImage} alt="side img" />
       <div className="container max-w-[1164px] mx-auto px-3 py-12 sm:py-16 md:py-20 lg:pt-28  xl:py-[130px] lg:pb-[105px]">
         <h2 className="text-saffron font-indieFlower font-normal leading-lh131 text-2xl text-center text_border_half_orange">
           About Us

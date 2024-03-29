@@ -4,14 +4,14 @@ import buildingImage from "../../assets/images/svg/building.svg";
 import creativityImage from "../../assets/images/svg/creativity.svg";
 const Roadmap = () => {
   return (
-    <div className="container max-w-[1164px] mx-auto px-3 py-12 sm:py-16 md:py-20 lg:pt-28  xl:py-[134px] lg:pb-[95px]">
+    <div className="container max-w-[1164px] mx-auto px-3 py-12 sm:py-16 md:py-20 lg:pt-28  xl:py-[134px] lg:pb-[95px]" id="team">
       <h2 className="text-saffron font-indieFlower font-normal leading-lh131 text-2xl text-center text_border_half_orange">
         Roadmap
       </h2>
       <h2 className="common_heading text_border_one mb-12 lg:mb-[58px]">
         Pathway to Progress
       </h2>
-      <div className="relative">
+      <div className="relative bg-[url(/src/assets/images/svg/radmapbg-img.svg)] bg-center bg-[length:100%_100%] bg-no-repeat">
         <div className="bg-black w-1 h-full top-0 absolute left-6 sm:left-1/2 sm:-translate-x-1/2"></div>
         <div className="flex  sm:items-center flex-col sm:flex-row justify-between">
           <div className="w-full sm:w-1/2 flex items-center flex-row-reverse sm:flex-row justify-between ps-16 sm:ps-0 sm:pe-16 lg:pe-[92px]">

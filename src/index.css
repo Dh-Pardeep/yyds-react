@@ -4,18 +4,27 @@
 @tailwind components;
 @tailwind utilities;
 
-.text_border_one{
+.text_border_one {
     -webkit-text-stroke-color: #010101 !important;
     -webkit-text-stroke-width: 1px !important;
 }
-.text_border_half{
+.text_border_half {
     -webkit-text-stroke-color: #000000 !important;
     -webkit-text-stroke-width: 0.5px !important;
 }
-.text_border_half_orange{
-    -webkit-text-stroke-color: #F2BD64 !important;
+.text_border_half_orange {
+    -webkit-text-stroke-color: #f2bd64 !important;
     -webkit-text-stroke-width: 0.5px !important;
 }
+html {
+    @apply scroll-smooth;
+}
+::-webkit-scrollbar {
+   @apply w-1.5 
+}
+::-webkit-scrollbar-thumb{
+    @apply bg-skyBlue rounded-xl
+}
 .common_heading {
-    @apply font-indieFlower font-normal text-3xl md:text-4xl lg:text-5xl text-center !leading-lh131 ;
+    @apply font-indieFlower font-normal text-3xl md:text-4xl lg:text-5xl text-center !leading-lh131;
 }
