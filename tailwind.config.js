@@ -8,6 +8,7 @@ module.exports = withMT({
   ],
   theme: {
     screens: {
+      xs: "375px",
       sm: "640px",
       md: "768px",
       lg: "1024px",
@@ -36,6 +37,7 @@ module.exports = withMT({
         darkCharcoal: "#2E2C28",
         lightWhite: "#FAFAFA",
         babypowder: "#FAF8F3",
+        gray: "#F7F5F0",
       },
       lineHeight: {
         lh138: "138.4%",

@@ -29,7 +29,7 @@ const About = () => {
         </p>
         <div className="flex justify-center items-center pt-10 pb-6">
           <button className="bg-[url(/src/assets/images/svg/button-bg.svg)] bg-center bg-[length:100%_100%] bg-no-repeat  px-10 lg:px-[56px] py-5 lg:pt-[23px] lg:pb-[26px] ">
-            {" "}
+       
             Learn More
           </button>
         </div>
