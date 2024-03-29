@@ -6,3 +6,8 @@
         left: unset !important;
     }
 }
+@media (min-width: 768px) {
+    .position_unset {
+        position: unset !important;
+    }
+}
