@@ -1,6 +1,7 @@
 import React from "react";
 import leftImage from "../../assets/images/svg/aboutLeftSide.svg";
 import rightImage from "../../assets/images/svg/aboutRightSide.svg";
+import headingBlueLine from "../../assets/images/svg/headingBlueLine.svg";
 const About = () => {
   return (
     <div className="relative" id="about-us">
@@ -11,7 +12,7 @@ const About = () => {
           About Us
         </h2>
         <h2 className="common_heading text_border_one mb-6">
-          Introducing $YYDS
+          Introducing <span className="relative ">$YYDS<img className="absolute bottom-0 left-0 w-full" src={headingBlueLine} alt="blue line" /> </span>
         </h2>
         <p className="font-poppins text-sm sm:text-base leading-lh138 font-normal text-lightBlack opacity-60 text-center max-w-[685px] mx-auto">
           In the meme universe, 财神YYDS, born from "永远的神" and traditional

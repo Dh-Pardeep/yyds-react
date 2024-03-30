@@ -3,6 +3,7 @@ import yydsCircle from "../../assets/images/svg/yydscircle.svg";
 import leftTopImage from "../../assets/images/svg/tokenlefttop.svg";
 import leftBottomImage from "../../assets/images/svg/tokenleftbottom.svg";
 import rightImage from "../../assets/images/svg/tokenrightimg.svg";
+import headingBlueLine from "../../assets/images/svg/headingBlueLine.svg";
 const Tokenomics = () => {
   return (
     <div className="bg-papayaWhip relative" id="tokenomics">
@@ -35,7 +36,7 @@ const Tokenomics = () => {
               Tokenomics
             </h2>
             <h2 className="common_heading text_border_one !text-start mb-[30px]">
-              Token Metrics
+              Token <span className="relative ">Metrics<img className="absolute bottom-0 left-0 w-full" src={headingBlueLine} alt="blue line" /> </span>
             </h2>
             <div className="flex gap-4 ">
               <div className="bg-pastedOrange w-[41px] h-[30px] rounded "></div>

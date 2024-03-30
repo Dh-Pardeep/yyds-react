@@ -6,6 +6,7 @@ import rightImage from "../../assets/images/svg/heroright.svg";
 import heroBGDown from "../../assets/images/svg/hero-bg-down-image.svg";
 import herobacgroundimageleft from "../../assets/images/svg/herobacgroundimageleft.svg";
 import herobacgroundimageright from "../../assets/images/svg/herobacgroundimageright.svg";
+import heroHeadingBlueLine from "../../assets/images/svg/heroHeadingBlueLine.svg";
 const Hero = () => {
   return (
     <div className="relative">
@@ -37,7 +38,7 @@ const Hero = () => {
         <div className="flex items-center justify-center flex-col lg:flex-row relative z-10">
           <div className="w-full lg:w-1/2">
             <h2 className="font-indieFlower font-normal text-4xl lg:text-[56px] xl:text-6xl !leading-lh131 text_border_one pb-3 lg:max-w-[558px] text_border_hero">
-              Laughing All the Way to the Coin Bank
+              Laughing All the Way to the <span className="relative whitespace-nowrap ">Coin Bank <img className="absolute bottom-0 left-0 w-full" src={heroHeadingBlueLine} alt="blue line" /> </span>
             </h2>
             <p className="lg:max-w-[510px] text-lightBlack/60 font-poppins font-normal leading-lh138">
               Welcome to YYDS, where the world of numismatics meets the realm of

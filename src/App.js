@@ -11,7 +11,7 @@ import BackToTop from "./components/common/BackToTop";
 
 function App() {
   return (
-    <div className="bg-repeat-y bg-[url(/src/assets/images/webp/bg-image.webp)]">
+    <div className="bg-repeat-y bg-[url(/src/assets/images/webp/bg-image.webp)] bg-[length:100%_100%]">
       <BackToTop/>
       <Header/>
       <Hero/>

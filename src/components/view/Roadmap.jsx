@@ -2,6 +2,7 @@ import React from "react";
 import foundationImage from "../../assets/images/svg/foundation.svg";
 import buildingImage from "../../assets/images/svg/building.svg";
 import creativityImage from "../../assets/images/svg/creativity.svg";
+import headingBlueLine from "../../assets/images/svg/headingBlueLine.svg";
 const Roadmap = () => {
   return (
     <div className="container max-w-[1164px] mx-auto px-3 py-12 sm:py-16 md:py-20 lg:pt-28  xl:py-[134px] lg:pb-[95px]" id="team">
@@ -9,7 +10,7 @@ const Roadmap = () => {
         Roadmap
       </h2>
       <h2 className="common_heading text_border_one mb-12 lg:mb-[58px]">
-        Pathway to Progress
+        Pathway to <span className="relative ">Progress<img className="absolute -bottom-3 md:-bottom-4 lg:bottom-[-22px] left-0 w-full" src={headingBlueLine} alt="blue line" /> </span>
       </h2>
       <div className="relative bg-[url(/src/assets/images/svg/radmapbg-img.svg)] bg-center bg-[length:100%_100%] bg-no-repeat">
         <div className="bg-black w-1 h-full top-0 absolute left-6 sm:left-1/2 sm:-translate-x-1/2"></div>
